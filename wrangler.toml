@@ -1,0 +1,5 @@
+name = "maximum-ogp-generator"
+compatibility_date = "2023-03-15"
+rules = [
+  { type = "Data", globs = ["**/*.ttf", "**/*.otf"], fallthrough = true },
+]
